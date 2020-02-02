@@ -12,7 +12,7 @@ const reverseTests = [
 ];
 
 function reverse(str) {
-  return str
+  return str = str
     .split("")
     .reverse()
     .join("");

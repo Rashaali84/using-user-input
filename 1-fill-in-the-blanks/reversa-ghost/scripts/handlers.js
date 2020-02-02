@@ -1,6 +1,7 @@
 function reverseItHandler(event) {
   // read & process user input
-  const userInput = event.userInput;
+  const form = event.target.form;
+  const userInput = form['user-input'].value;
 
   // execute core logic
   const reversed = reverse(userInput);
