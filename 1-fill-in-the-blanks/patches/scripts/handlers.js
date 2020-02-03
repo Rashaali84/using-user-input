@@ -1,12 +1,11 @@
 function setBackground(event) {
   // read & process user input
-  const divId = event.target.divId;
-
+  const divId = event.target.id;
   // execute core logic
   const newColor = filterColors(divId);
 
   // display results to user
-  document.body.style.backgroundColor = newColor;
+  document.body.style.background = newColor;
 
   // log action for developers
   console.log("\n-- setBackground --");
