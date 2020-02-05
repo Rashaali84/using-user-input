@@ -1,2 +1,24 @@
-<script src='../../testing.js'></script>
-<script src='./scripts/logic.js'></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script src="../../testing.js"></script>
+    <script src="./scripts/logic.js"></script>
+    <script src="./scripts/handlers.js"></script>
+  </head>
+
+  <body>
+    <form class="inputs">
+      <section id="user-interface" class="failing">
+        <input id="visible" type="text" name="target" />
+        <input id="obscured" type="password" name="guess" />
+        <p id="program-output" class="output-field"></p>
+      </section>
+      <script src="./scripts/listeners.js"></script>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script src="../../testing.js"></script>
+    <script src="./scripts/logic.js"></script>
+    <script src="./scripts/handlers.js"></script>
+  </head>
+
+  <body>
+    <form class="formulaire" id="inputs">
+      <section id="user-input">
+        <input type="range" name="left" class="input-slider" />
+        <option value="number"></option>
+        <select id="mySelect" size="4">
+          <option value="add">add</option>
+          <option value="subtract">subtract</option>
+          <option value="multiply">multiply</option>
+          <option value="divide">divide</option>
+        </select>
+        <input type="range" name="right" class="input-slider" />
+        <p id="program-output" class="output-field"></p>
+      </section>
+      <script src="./scripts/event-listeners.js"></script>
+    </form>
+  </body>
+</html>

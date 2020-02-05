@@ -10,8 +10,19 @@ const _Tests = [
   { name: 'ninth', args: [false, false], expected: 'passing' },
 ];
 
-function _() {
+function compareThem(first, second) {
+  if (typeof first === typeof second) {
+    if (first === second) {
+      return 'passing';
+    }
+    else {
+      return 'failing';
+    }
+  }
+  else {
+    return 'failing';
+  }
 
 }
 
-testing(_, _Tests);
+testing(compareThem, _Tests);

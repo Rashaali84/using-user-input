@@ -1,8 +1,8 @@
 const doMathTests = [
   { name: 'first', args: ['add', 4, 5], expected: 9 },
-  { name: 'second', args: ['subtract', 4, 5], expected: -1 },
-  { name: 'third', args: ['multiply', 4, 5], expected: 20 },
-  { name: 'fourth', args: ['divide', 4, 5], expected: .8 },
+  { name: 'second', args: ['sub', 4, 5], expected: -1 },
+  { name: 'third', args: ['mul', 4, 5], expected: 20 },
+  { name: 'fourth', args: ['div', 4, 5], expected: .8 },
   { name: 'fifth', args: ['toad', 4, 5], expected: 'invalid operation' },
 ];
 

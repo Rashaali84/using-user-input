@@ -1,0 +1,10 @@
+.shaddow {
+}
+.full-screen {
+  width: 100%;
+  height: 800px;
+  background-color: tomato;
+}
+.shaddow {
+  position: absolute;
+}

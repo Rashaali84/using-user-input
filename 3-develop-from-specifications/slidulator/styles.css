@@ -1,0 +1,16 @@
+.input-slider {
+  width: 150px;
+  display: block;
+  margin: 20px;
+}
+.output-field {
+  width: 150px;
+  background-color: yellow;
+  display: inline;
+}
+.formulaire {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
